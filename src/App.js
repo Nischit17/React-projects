@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Stopwatch from "./components/Stopwatch/Stopwatch";
+import Accordian from "./components/accordian/Accordian";
+import Show from "./components/show_hide/Show";
+import StarRating from "./components/starrating/StarRating";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* Accordian Component */}
+      <Accordian />
+      {/* StarRating Component */}
+      <StarRating noOfStars={10} />
+      {/* Show/Hide Title Component */}
+      <Show />
+      {/* Time Component */}
+      <Stopwatch />
     </div>
   );
 }

@@ -1,0 +1,40 @@
+.acc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.accordian {
+  width: 800px;
+}
+
+.item {
+  background: rgb(103, 103, 148);
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content {
+  color: #fff;
+}
+
+.data {
+  font-size: 50px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
